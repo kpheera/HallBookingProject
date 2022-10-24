@@ -29,7 +29,7 @@ mongoose.connect(mongoDatabase, { useUnifiedTopology: true, useNewUrlParser: tru
 // Convert incoming data to JSON format
 app.use(bodyParser.json());
 
-app.use(express.static(`./dist/library-app`)); 
+app.use(express.static(`./dist/frontend`)); 
 
 // Enabled CORS
 app.use(cors());
