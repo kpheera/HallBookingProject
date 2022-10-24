@@ -1,6 +1,6 @@
 const express = require('express');
 const loginRoute = express.Router();
-const userModel = require('../Model/Users');
+const userModel = require('../model/users');
 
 
 //check if user exit

@@ -1,6 +1,6 @@
 const express = require('express');
 const userRoute = express.Router();
-const userModel = require('../Model/Users');
+const userModel = require('../model/users');
 
 // To Get List Of Users
 userRoute.route('/getUsers').get(function (req, res) {
